@@ -1,0 +1,54 @@
+$black: #0c0c0c;
+$darkgray: #181818;
+$gray: #e0e0e0;
+$white: #ffffff;
+
+* {
+    font-family: soleil, sans-serif;
+}
+
+body {
+    background: $black;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+    color: $white;
+}
+
+#app {
+    height: 100%;
+}
+
+nav {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    position: fixed;
+    div {
+        background: $darkgray;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        padding: 20px;
+        display: flex;
+        color: $black;
+        font-size: 3rem;
+        h1, h2, h3, h4 {
+            margin: 0px;
+            line-height: 1;
+        }
+    }
+    .one {
+        color: white;
+    }
+    .two {
+        justify-content: end;
+    }
+    .four, .five {
+        writing-mode: sideways-lr;
+    }
+}
