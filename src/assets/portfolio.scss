@@ -22,12 +22,12 @@ html, body {
 }
 
 nav {
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
-    top: 15px;
-    bottom: 15px;
-    left: 15px;
-    right: 15px;
+    height: calc(100% - 28px);
+    width: calc(100% - 28px);
+    top: 14px;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
     position: fixed;
     div {
         background: $darkgray;

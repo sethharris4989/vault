@@ -35,7 +35,7 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "one one one one one one two two two two two two" "one one one one one one two two two two two two" "one one one one one one two two two two two two" "one one one one one one two two two two two two" "one one one one one one two two two two two two" "one one one one one one two two two two two two" "four four four five five five two two two two two two" "four four four five five five two two two two two two" "four four four five five five two two two two two two" "four four four five five five three three three three three three" "four four four five five five three three three three three three" "four four four five five five three three three three three three";
-  grid-gap: 15px;
+  grid-gap: 14px;
 }
 
 
